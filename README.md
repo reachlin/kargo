@@ -1,6 +1,6 @@
 ![Kubernetes Logo](https://s28.postimg.org/lf3q4ocpp/k8s.png)
 
-## Deploy a production ready kubernetes cluster
+## Deploy a production ready kubernetes cluster [![Build Status](https://travis-ci.org/reachlin/kargo.svg)][travis]
 
 If you have questions, join us on the [kubernetes slack](https://slack.k8s.io), channel **#kargo**.
 
@@ -113,3 +113,5 @@ See also [Network checker](docs/netcheck.md).
 
 CI/end-to-end tests sponsored by Google (GCE), DigitalOcean, [teuto.net](https://teuto.net/) (openstack).
 See the [test matrix](docs/test_cases.md) for details.
+
+[travis]: https://travis-ci.org/reachlin/kargo
