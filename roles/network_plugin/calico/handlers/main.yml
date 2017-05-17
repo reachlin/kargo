@@ -8,9 +8,11 @@
 
 - name : Calico | reload systemd
   shell: systemctl daemon-reload
+  ignore_errors: True
 
 - name: Calico | reload calico-node
   service:
     name: calico-node
     state: restarted
     sleep: 10
+  ignore_errors: True
