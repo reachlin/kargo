@@ -10,4 +10,4 @@ before_install:
   - sudo pip install ansible
 
 script:
-  - ansible-playbook -i inventory/local-test.cfg cluster.yml --check
+  - ansible-playbook -i inventory/local-test.cfg cluster.yml
