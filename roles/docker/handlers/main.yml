@@ -21,6 +21,7 @@
   service:
     name: docker
     state: restarted
+  ignore_errors: True
 
 - name: Docker | pause while Docker restarts
   pause:
