@@ -11,4 +11,4 @@ before_install:
   - sudo pip install ansible
 
 script:
-  - sudo ansible-playbook -i inventory/local-tests.cfg cluster.yml --skip-tags "docker" -vvvv
+  - sudo ansible-playbook -i inventory/local-tests.cfg cluster.yml --skip-tags "docker"
